@@ -17,6 +17,24 @@ One-shot macOS provisioning for an [opencode](https://opencode.ai) + [OpenRouter
 Anything **missing** is created without asking. Anything that already **exists and
 holds data** is left alone unless you confirm — every prompt defaults to **no**.
 
+## After installing: open the demo prompts
+
+The demo itself runs from [`PROMPTS.md`](PROMPTS.md) — nine prompts you paste
+into opencode one at a time, in order.
+
+**Open it in TextEdit so you can copy each prompt as plain text:**
+
+```bash
+open -a TextEdit PROMPTS.md
+```
+
+Keep that window next to your terminal and work down the list. Run the whole
+sequence once per model, using the matching folder under `~/projects/oc-demo/`
+(`k3`, `glm`, `claude`, `inkling`, `deepseek`), then compare the results.
+
+Copying from TextEdit rather than from GitHub's rendered page avoids picking up
+the styled quotes and dashes that a rendered view can introduce.
+
 ## Flags
 
 | Flag | Effect |
